@@ -5,6 +5,8 @@ object KotlinDependencies {
 
 object AndroidXDependencies {
  const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtxVersion}"
+ const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompatVersion}"
+
  const val lifeCycleKtx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleVersion}"
  const val activityCompose = "androidx.activity:activity-compose:${Versions.composeActivityVersion}"
  const val composeUi = "androidx.compose.ui:ui:${Versions.composeUiVersion}"
@@ -32,6 +34,11 @@ object KaptDependencies {
  const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glideVersion}"
  const val hiltAndroidCompiler =
   "com.google.dagger:hilt-android-compiler:${Versions.hiltVersion}"
+}
+
+object MaterialDesignDependencies {
+ const val materialDesign =
+  "com.google.android.material:material:${Versions.materialDesignVersion}"
 }
 
 object ThirdPartyDependencies {
