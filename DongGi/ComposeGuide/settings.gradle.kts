@@ -13,7 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "ComposeGuide"
-include ':app'
-include ':data'
-include ':domain'
-include ':presentation'
+include(":app", ":presentation", ":data", ":domain")

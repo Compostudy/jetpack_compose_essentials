@@ -1,6 +1,4 @@
 object Versions {
-
-
     const val appCompatVersion = "1.4.2"
     const val materialDesignVersion = "1.7.0"
     const val composeUiVersion = "1.2.0"
@@ -11,9 +9,9 @@ object Versions {
     const val coreKtxVersion = "1.7.0"
     const val junit = "1.1.5"
     const val junitVersion = "4.13.2"
-    const val espressoVersion = "3.5.1"
+    const val espressoVersion = "3.3.0"
 
-    const val hiltVersion = "2.42"
+    const val hiltVersion = "2.44"
     const val glideVersion = "4.13.0"
     const val retrofitVersion = "2.9.0"
     const val okHttpVersion = "4.9.3"

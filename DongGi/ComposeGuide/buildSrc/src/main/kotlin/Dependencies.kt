@@ -34,7 +34,9 @@ object KaptDependencies {
  const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glideVersion}"
  const val hiltAndroidCompiler =
   "com.google.dagger:hilt-android-compiler:${Versions.hiltVersion}"
+ const val hiltCompiler = "androidx.hilt:hilt-compiler:1.0.0"
 }
+
 
 object MaterialDesignDependencies {
  const val materialDesign =
